@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="IpbShare.UWP.Views.Equipamento.ManageEquipamentoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IpbShare.UWP.Views.Equipamento"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="MediumPurple">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Equipamentos"
+                       Foreground="White"
+                       Style="{StaticResource HeaderTextBlockStyle}" />
+        </Grid>
+    </Grid>
+</Page>
